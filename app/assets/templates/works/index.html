@@ -15,7 +15,7 @@
     <div class="row">
       <div class="col-md-6 col-lg-4" ng-repeat="work in worksIndexCtrl.works | filter:query" >
         <h3>{{work.title}}</h3>
-        <p>{{work.description | limitTo: 160}}{{work.description.length > 20 ? '...' : ''}}</p>
+        <p>{{work.description | limitTo: 140}}{{work.description.length > 20 ? '...' : ''}}</p>
         <div class="center-block">
           <a ng-href="#/works/{{work.id}}">
             <img ng-src="{{work.image}}" width="100%" class="center-block"/>
