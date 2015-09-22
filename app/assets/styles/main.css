@@ -285,3 +285,17 @@ body {
 }
 
 /* END FOOTER STYLES */
+
+
+/* COMING SOON STYLES */
+
+.coming-soon-h1 {
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+.coming-soon h3 {
+  margin-top: 0;
+}
+
+/* END COMING SOON STYLES */
