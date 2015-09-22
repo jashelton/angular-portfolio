@@ -33,6 +33,7 @@ hr {
   width: 100%;
 }
 
+
 /* ------ END GENERIC STYLES ------ */
 
 /* ------ SHOW STYLES ------ */
@@ -76,6 +77,11 @@ hr {
 
 .work-description {
   padding-left: 0;
+}
+
+.img-shadow {
+  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+  /*box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);*/
 }
 
 /* ------ END SHOW STYLES ------ */
@@ -230,6 +236,9 @@ hr {
   -o-animation: headerDrop 1s linear 0s 1 forwards;
   animation: headerDrop 1s linear 0s 1 forwards;
   margin-top: -60px;
+  position: fixed;
+  width: 100%;
+  z-index: 1000;
 }
 
 @-webkit-keyframes headerDrop {
@@ -296,6 +305,7 @@ body {
 }
 
 .wrap {
+  padding-top: 80px;
   padding-bottom: 50px;
 }
 
