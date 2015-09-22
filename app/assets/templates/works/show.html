@@ -8,8 +8,23 @@
           <a ng-href="{{work.githubLink}}"<i class="{{work.github}} display-icon github-icon"></i></a>
         </span>
         <hr />
-        <p>{{work.description}}</p>
-        <img ng-src="{{work.image}}" width="100%"/>
+        <!-- <div class="container container-fluid">
+          <div class="row"> -->
+          <div class="col-md-4">
+            <h3>Description</h3>
+            <p class="work-description">{{work.description}}</p>
+          </div>
+          <div class="col-md-4">
+            <h3>Technologies Used</h3>
+            <p class="work-description">{{work.technologies}}</p>
+          </div>
+          <div class="col-md-4">
+            <h3>Lessons Learned</h3>
+            <p class="work-description">{{work.lessons}}</p>
+          </div>
+            <img ng-src="{{work.image}}" width="100%"/>
+          <!-- </div>
+        </div> -->
       </div>
     </div>
   </div>

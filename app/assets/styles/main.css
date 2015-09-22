@@ -74,6 +74,10 @@ hr {
   color: #006dcc;
 }
 
+.work-description {
+  padding-left: 0;
+}
+
 /* ------ END SHOW STYLES ------ */
 
 /* ------ HOME STYLES ------ */
@@ -288,6 +292,7 @@ body {
   height: 140px;
   background-color: #333;
   color: #eee;
+  text-align: center;
 }
 
 .wrap {
@@ -299,6 +304,7 @@ body {
   width: 100%;
   color: #cdcdcd;
   position: relative;
+  text-align: center;
 }
 
 .social-list {
