@@ -1,0 +1,287 @@
+/* ------ GENERIC STYLES ------ */
+
+.push-below-header {
+  margin-top: 70px;
+}
+
+.logo {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  top: 5px;
+}
+
+.inline-heading {
+  display: inline;
+}
+
+.full-height {
+  height: 100%;
+}
+
+.input-container {
+  margin-top: 25px;
+}
+
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #00B2EF;
+  margin: 1em 0;
+  padding: 10px;
+  width: 100%;
+}
+
+/* ------ END GENERIC STYLES ------ */
+
+/* ------ SHOW STYLES ------ */
+
+.display-icon {
+  float: right;
+  padding-top: 10px;
+  margin-left: 25px;
+}
+
+.icon-container a {
+  text-decoration: none;
+  -webkit-transition: 0.35s all ease;
+  -moz-transition: 0.35s all ease;
+  -ms-transition: 0.35s all ease;
+  -o-transition: 0.35s all ease;
+  transition: 0.35s all ease;
+}
+
+.icon-container a:hover {
+  -webkit-transform: scale(1.25);
+  -moz-transform: scale(1.25);
+  -ms-transform: scale(1.25);
+  -o-transform: scale(1.25);
+  transform: scale(1.25);
+
+  -webkit-transition: 0.35s all ease;
+  -moz-transition: 0.35s all ease;
+  -ms-transition: 0.35s all ease;
+  -o-transition: 0.35s all ease;
+  transition: 0.35s all ease;
+}
+
+.github-icon {
+  color: #7b0099;
+}
+
+.view-icon {
+  color: #006dcc;
+}
+
+/* ------ END SHOW STYLES ------ */
+
+/* ------ HOME STYLES ------ */
+
+.body-wrapper {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  z-index: -100;
+  background: linear-gradient(to bottom right, rgba(26, 26, 26, 1) 0%, rgba(26, 26, 26, 0.92) 59%, rgba(26, 26, 26, 1) 100%),
+  url('../images/hero-bg.jpg') center fixed;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+
+.jumbo-full {
+  width: 100%;
+  min-height: 100%;
+  color: #cdc;
+}
+
+.jumbo-full h1, .jumbo-full h2, .jumbo-full h3 {
+  font-weight: 100;
+  text-align: center;
+  letter-spacing: 2px;
+}
+
+.jumbo-full h2 {
+  font-size: 1.5em;
+  color: #707070;
+}
+
+.content-container {
+  position: absolute;
+  top: 35%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -35%);
+  -moz-transform: translate(-50%, -35%);
+  -o-transform: translate(-50%, -35%);
+  -ms-transform: translate(-50%, -35%);
+  transform: translate(-50%, -35%);
+}
+
+.jumbo-color {
+  background-color: rgba(255, 255, 255, 1);
+  color: #333;
+  min-height: 100%;
+}
+
+.list-heading {
+  font-weight: bold;
+  font-size: 1.3em;
+}
+
+.demo-day-container {
+  position: relative;
+}
+
+.video-container {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.skills-list li:nth-child(even) {
+  background: #fbfbfb;
+}
+
+.skills-list img {
+  margin-right: 15px;
+  margin-left: 5px;
+}
+
+/* ------ END HOME STYLES ------ */
+
+
+/* TUTORIAL MODAL STYLES */
+
+.video-modal-container {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: rgba(66, 66, 66, 0.8);
+  z-index: 1000;
+  display: none;
+}
+
+.video-modal {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.4);
+}
+
+.video-modal-clickoff {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 100;
+}
+
+.content-block {
+  margin-top: 25px;
+}
+
+.video-preview {
+  cursor: pointer;
+  -webkit-transition: 0.35s all ease;
+  -moz-transition: 0.35s all ease;
+  -ms-transition: 0.35s all ease;
+  -o-transition: 0.35s all ease;
+  transition: 0.35s all ease;
+}
+
+.video-preview:hover {
+  -webkit-transition: 0.35s all ease;
+  -moz-transition: 0.35s all ease;
+  -ms-transition: 0.35s all ease;
+  -o-transition: 0.35s all ease;
+  transition: 0.35s all ease;
+  -webkit-filter: brightness(70%);
+  -webkit-transform: translateY(-10px);
+  -moz-transform: translateY(-10px);
+  -ms-transform: translateY(-10px);
+  -o-transform: translateY(-10px);
+  transform: translateY(-10px);
+}
+
+/* END TUTORIAL MODAL STYLES */
+
+/* HEADER STYLES */
+
+.navbar-inverse {
+  border-radius: 0;
+  border: none;
+}
+
+/* END HEADER STYLES */
+
+.img-overlay {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+/* FOOTER STYLES */
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 140px;
+}
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 140px;
+  background-color: #333;
+}
+
+.wrap {
+  padding-bottom: 50px;
+}
+
+.home-footer {
+  height: 150px;
+  width: 100%;
+  color: #cdcdcd;
+  position: relative;
+}
+
+.social-list {
+  font-size: 30px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.social-list li {
+  display: inline;
+  margin-right: 25px;
+}
+
+.copyright {
+  position: absolute;
+  left: 50%;
+  bottom: 5px;
+  transform: translate(-50%, 5px);
+}
+
+/* END FOOTER STYLES */

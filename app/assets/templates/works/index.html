@@ -1,0 +1,28 @@
+<div class="wrap">
+  <div class="container container-fluid" ng-controller="worksIndexController as worksIndexCtrl">
+    <div class="row">
+      <h1 class="col-md-2">Works</h1>
+      <div class="col-md-offset-6 col-md-4 pull-right">
+        <div class="input-group input-container">
+          <input type="text" class="form-control" placeholder="Search for..." ng-model="query">
+          <span class="input-group-btn">
+            <button class="btn btn-default" type="button">Go!</button>
+          </span>
+        </div><!-- /input-group -->
+      </div>
+    </div>
+    <hr />
+    <div class="row">
+      <div class="col-md-6 col-lg-4" ng-repeat="work in worksIndexCtrl.works | filter:query" >
+        <h3>{{work.title}}</h3>
+        <p>{{work.description | limitTo: 120}}</p>
+        <div class="center-block">
+          <a ng-href="#/works/{{work.id}}">
+            <img ng-src="{{work.image}}" width="100%" class="center-block"/>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<portfolio-footer></portfolio-footer>

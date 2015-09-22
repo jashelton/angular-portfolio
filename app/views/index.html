@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html ng-app="AngularPortfolio">
+  <head>
+    <meta charset="utf-8">
+    <title>Justin Shelton | Portfolio - AngularJS</title>
+    <link rel="stylesheet" href="assets/styles/bootstrap.css" />
+    <link rel="stylesheet" href="assets/styles/bootstrap-theme.css" />
+    <link rel="stylesheet" href="assets/styles/main.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <link rel="icon" type="image/png" href="assets/images/favicon.png" />
+  </head>
+  <body>
+
+    <portfolio-nav></portfolio-nav>
+
+    <div ng-view></div>
+
+    
+
+  </body>
+  <!-- Vendor -->
+  <script src="assets/javascript/vendor/jquery-2.1.4.min.js"></script>
+  <script src="assets/javascript/vendor/angular.js"></script>
+  <script src="assets/javascript/vendor/angular-route.js"></script>
+  <script src="assets/javascript/vendor/angular-resource.js"></script>
+  <script src="assets/javascript/vendor/bootstrap.min.js"></script>
+  <script src="assets/javascript/vendor/ui-bootstrap-tpls-0.13.4.js"></script>
+
+  <!-- App -->
+  <script src="assets/javascript/app.js"></script>
+  <script src="assets/javascript/routes.js"></script>
+  <!-- Directives -->
+  <script src="assets/javascript/directives/portfolioNav.js"></script>
+  <script src="assets/javascript/directives/portfolioFooter.js"></script>
+  <!-- Controllers -->
+  <script src="assets/javascript/controllers/homeIndexController.js"></script>
+  <script src="assets/javascript/controllers/worksIndexController.js"></script>
+  <script src="assets/javascript/controllers/worksShowController.js"></script>
+  <script src="assets/javascript/controllers/tutorialsIndexController.js"></script>
+  <!-- Services -->
+
+</html>

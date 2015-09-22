@@ -1,0 +1,17 @@
+<div class="wrap">
+  <div class="container container-fluid" ng-controller="worksShowController as worksShowCtrl">
+    <div class="row">
+      <div class="col-md-12" ng-repeat="work in worksShowCtrl.works | filter: {id:getId}">
+        <h1 class=inline-heading>{{work.title}}</h1>
+        <span class="icon-container">
+          <a ng-href="{{work.viewWorkLink}}"<i class="{{work.view}} display-icon view-icon"></i></a>
+          <a ng-href="{{work.githubLink}}"<i class="{{work.github}} display-icon github-icon"></i></a>
+        </span>
+        <hr />
+        <p>{{work.description}}</p>
+        <img ng-src="{{work.image}}" width="100%"/>
+      </div>
+    </div>
+  </div>
+</div>
+<portfolio-footer></portfolio-footer>
