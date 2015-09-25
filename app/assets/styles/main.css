@@ -167,6 +167,52 @@ hr {
   margin-left: 5px;
 }
 
+.about-img-container {
+  position: relative;
+}
+
+.about-icon {
+  position: absolute;
+  color: #1596BB;
+  transition: 1s all ease;
+}
+
+.about-icon:hover {
+  -webkit-animation: iconAnim 0.5s linear 0s 1 forwards;
+  -moz-animation: iconAnim 0.5s linear 0s 1 forwards;
+  -ms-animation: iconAnim 0.5s linear 0s 1 forwards;
+  -o-animation: iconAnim 0.5s linear 0s 1 forwards;
+  animation: iconAnim 0.5s linear 0s 1 forwards;
+  transition: 1s all ease;
+}
+
+@-webkit-keyframes iconAnim {
+    0%   {margin-left: 10px;}
+    50%  {margin-right: 10px;}
+    100% {margin: 0}
+}
+
+.about-twitter {
+  top: 25px;
+  left: 70%;
+}
+
+.about-github {
+  top: 100px;
+  left: 75%;
+}
+
+.about-linkedin {
+  top: 175px;
+  left: 70%;
+}
+
+/*.img-bottom {
+  width: 100%;
+  height: 40px;
+  background: #eee;
+}*/
+
 /* ------ END HOME STYLES ------ */
 
 
