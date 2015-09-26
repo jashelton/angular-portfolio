@@ -3,7 +3,20 @@ angular.module('AngularPortfolio', ['ngRoute', 'ngResource']);
 // Works List Data
   var works = [
   {
-    id: 1,
+    id: 4,
+    title: 'Portfolio - AngularJS',
+    description: 'After graduating from The Iron Yard, I immediately started looking into different JavaScript frameworks that I wanted to learn.  When I started getting into Angular, I quickly fell in love with it.  I wanted to use Angular form something on my own for practice, so what better use than rebuilding my portfolio.  This project was a lot of fun and I am extremely excited to continue progressing with AngularJS.',
+    technologies:'HTML5, CSS3, JavaScript, jQuery, AngularJS, Git, Heroku, Photoshop',
+    lessons: 'Considering this was my first real world experience using Angular, the biggest lesson I learned was how to incorporate JavaScript using things such as Angular directives.  I look forward to starting a few more projects and expanding into the full MEAN stack.',
+    image: 'assets/images/angular-portfolio-img.png',
+    github: 'fa-github-alt fa-2x fa',
+    view: 'fa-eye fa-2x fa',
+    viewWorkLink: 'https://sheltonjs.com',
+    githubLink: 'https://github.com/jashelton/angular-portfolio',
+    keywords: 'jQuery javascript html5 css3 angularjs'
+  },
+  {
+    id: 3,
     title: 'PIM',
     description: 'Predictive Inventory Management (PIM) is a website created for Spas to manage inventory based on upcoming appointments. This was a final project created by myself and 4 other Iron Yard Graduates. My job was Front-End functionality and design (excluding the login flow/landing page.) Login info for testing - Username: Face_It | Password: faceit',
     technologies:'HTML5, CSS3, JavaScript, jQuery, and Git in a Python Environment.',
@@ -29,7 +42,7 @@ angular.module('AngularPortfolio', ['ngRoute', 'ngResource']);
     keywords: 'Class Cash jQuery JavaScript CSS SCSS Design App'
   },
   {
-    id: 3,
+    id: 1,
     title: 'Form With Floating Labels',
     description: 'A common problem with forms are that the typical labels cause balance issues and just generally dont look that great. When pushing towards using placeholder text, that solves the problem while creating a new one. When typing in a box that has a placeholder, the text is gone and the user could easily lose track of what information should go where. Floating labels solves both problems.',
     technologies:'HTML5, CSS3, jQuery, and Git.',
