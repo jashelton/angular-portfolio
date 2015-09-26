@@ -11,7 +11,7 @@ angular.module('AngularPortfolio', ['ngRoute', 'ngResource']);
     image: 'assets/images/angular-portfolio-img.png',
     github: 'fa-github-alt fa-2x fa',
     view: 'fa-eye fa-2x fa',
-    viewWorkLink: 'https://sheltonjs.com',
+    viewWorkLink: 'http://www.sheltonjs.com',
     githubLink: 'https://github.com/jashelton/angular-portfolio',
     keywords: 'jQuery javascript html5 css3 angularjs'
   },
