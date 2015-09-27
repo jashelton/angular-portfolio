@@ -33,6 +33,16 @@ hr {
   width: 100%;
 }
 
+@media screen and (max-width: 680px) {
+  .landing-heading {
+    font-size: 18px;
+  }
+
+  .landing-subheading {
+    font-size: 14px !important;
+  }
+}
+
 
 /* ------ END GENERIC STYLES ------ */
 
@@ -205,6 +215,26 @@ hr {
 .about-linkedin {
   top: 175px;
   left: 70%;
+}
+
+@media screen and (max-width: 480px) {
+  .about-icon {
+    font-size: 32px !important;
+  }
+
+  .about-twitter {
+    left: 80%;
+  }
+
+  .about-github {
+    top: 75px;
+    left: 85%;
+  }
+
+  .about-linkedin {
+    top: 125px;
+    left: 80%;
+  }
 }
 
 /*.img-bottom {
@@ -382,6 +412,7 @@ body {
   -o-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
   text-align: center;
+  width: 100%;
 }
 
 .social-list li {
