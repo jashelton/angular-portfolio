@@ -325,7 +325,22 @@ hr {
   z-index: 1000;
 }
 
+@keyframes headerDrop {
+    0%   {margin-top: -60px;}
+    50%  {margin-top: 5px;}
+    100% {margin-top: 0;}
+}
 @-webkit-keyframes headerDrop {
+    0%   {margin-top: -60px;}
+    50%  {margin-top: 5px;}
+    100% {margin-top: 0;}
+}
+@-moz-keyframes headerDrop {
+    0%   {margin-top: -60px;}
+    50%  {margin-top: 5px;}
+    100% {margin-top: 0;}
+}
+@-ms-keyframes headerDrop {
     0%   {margin-top: -60px;}
     50%  {margin-top: 5px;}
     100% {margin-top: 0;}
