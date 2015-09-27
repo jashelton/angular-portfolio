@@ -340,7 +340,25 @@ hr {
   animation: navlistSlide 1s linear 0.75s 1 forwards;
 }
 
+@keyframes navlistSlide {
+    0%   {margin-right: -500px;}
+    50%  {margin-right: 10px;}
+    55%  {margin-right: 10px;}
+    100% {margin-right: 0;}
+}
 @-webkit-keyframes navlistSlide {
+    0%   {margin-right: -500px;}
+    50%  {margin-right: 10px;}
+    55%  {margin-right: 10px;}
+    100% {margin-right: 0;}
+}
+@-moz-keyframes navlistSlide {
+    0%   {margin-right: -500px;}
+    50%  {margin-right: 10px;}
+    55%  {margin-right: 10px;}
+    100% {margin-right: 0;}
+}
+@-ms-keyframes navlistSlide {
     0%   {margin-right: -500px;}
     50%  {margin-right: 10px;}
     55%  {margin-right: 10px;}
